@@ -1,0 +1,121 @@
+.body {
+    
+    padding: 0;
+    font-family: "open sans", arial;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    min-height: 100vh;
+    /* background: url(./Images/nature.jpg) no-repeat center center fixed; */
+    opacity: 80;
+    background-size: cover;
+     margin-top: -1.18%;
+}
+
+.input {
+    background-color: #fff;
+
+}
+
+.form-container {
+    width: 25vw;
+   margin-bottom: 2%;
+  
+}
+
+
+ .input-box {
+    position: relative;
+    margin-bottom: 15px;
+} 
+.input {
+   
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    color: #202124;
+    border: 1px solid #dadce0;
+    padding: 13px 15px;
+    transition: .25s;
+}
+input:focus {
+
+outline: none;
+border:2px solid #1a73e8;
+}
+
+.input-label {
+    position: absolute;
+    color: #80868b;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: calc(100%-(2*8px));
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    left: 8px;
+    top: 15px;
+    padding: 0 8px;
+    transition: .25s;
+}
+
+.input-box.active  .input-label,
+.input:focus + .input-label,
+.input:active + .input-label {
+    color: #1a73eB;
+    top: -6px;
+    background-color: #fff;
+    font-size: 11px;
+} 
+.btn {
+    cursor: pointer;
+    border: none;
+    white-space: normal;
+    letter-spacing: .25px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    line-height: 20px;
+    min-width: 88px;
+    transition: .25s;
+    display: inline-block;
+}
+.btn:focus {
+    outline: none;
+   
+}
+.btn-primary {
+    background-color: #1a73e8;
+    color: #fff;
+}
+
+
+.btn-primary:hover {
+    box-shadow: 0 4px 4px 0 rgba(66, 133 ,244, .8),
+                0 3px 1px 1px rgba(66, 133 ,244, .1);
+    background-color: lightseagreen;
+    color: black;
+    font-weight: bolder;
+}
+.button-box {
+    text-align: right;
+}
+.box {
+    border: 1px solid darkgray ;
+    padding: 2%;
+    border-radius: 0%;
+    margin-top: -10%;
+    background-color: white;
+    border-style: ridge;
+}
+img {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    display: block;
+}
+
+
+
